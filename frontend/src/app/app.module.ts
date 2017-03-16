@@ -21,6 +21,7 @@ import { LoginComponent } from './login/login.component';
 import { CadastroVacinasComponent } from './cadastro-vacinas/cadastro-vacinas.component';
 import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
 import { CadastroEmpresaComponent } from './cadastro-empresa/cadastro-empresa.component';
+import { CadastroColaboradorComponent } from './cadastro-colaborador/cadastro-colaborador.component';
 
 @NgModule({
   imports: [
@@ -40,7 +41,8 @@ import { CadastroEmpresaComponent } from './cadastro-empresa/cadastro-empresa.co
     LoginComponent,
     CadastroVacinasComponent,
     CadastroUsuarioComponent,
-    CadastroEmpresaComponent
+    CadastroEmpresaComponent,
+    CadastroColaboradorComponent
   ],
   providers: [{
     provide: LocationStrategy,

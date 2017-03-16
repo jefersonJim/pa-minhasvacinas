@@ -1,4 +1,6 @@
-import { CadastroPrincipalComponent } from './cadastro-principal/cadastro-principal.component';
+import { CadastroEmpresaComponent } from './cadastro-empresa/cadastro-empresa.component';
+import { CadastroVacinasComponent } from './cadastro-vacinas/cadastro-vacinas.component';
+import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
 import { LoginComponent } from './login/login.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -9,7 +11,9 @@ import { FullLayoutComponent } from './layouts/full-layout.component';
 export const routes: Routes = [
   { path: '', component: LoginComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'cadastro-principal', component: CadastroPrincipalComponent},
+  { path: 'cadastro-usuario', component: CadastroUsuarioComponent},
+  { path: 'cadastro-empresa', component: CadastroEmpresaComponent},
+  { path: 'cadastro-vacinas', component: CadastroVacinasComponent},
   {
     path: '',
     redirectTo: '',

@@ -18,7 +18,9 @@ import { AppRoutingModule } from './app.routing';
 //Layouts
 import { FullLayoutComponent } from './layouts/full-layout.component';
 import { LoginComponent } from './login/login.component';
-import { CadastroPrincipalComponent } from './cadastro-principal/cadastro-principal.component';
+import { CadastroVacinasComponent } from './cadastro-vacinas/cadastro-vacinas.component';
+import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
+import { CadastroEmpresaComponent } from './cadastro-empresa/cadastro-empresa.component';
 
 @NgModule({
   imports: [
@@ -36,7 +38,9 @@ import { CadastroPrincipalComponent } from './cadastro-principal/cadastro-princi
     SIDEBAR_TOGGLE_DIRECTIVES,
     AsideToggleDirective,
     LoginComponent,
-    CadastroPrincipalComponent
+    CadastroVacinasComponent,
+    CadastroUsuarioComponent,
+    CadastroEmpresaComponent
   ],
   providers: [{
     provide: LocationStrategy,

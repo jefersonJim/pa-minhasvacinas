@@ -7,14 +7,17 @@
             <h1>Cadastro</h1>
             <form class="form-control" class="text-center">
               <label class="text-left">Tipo de Pessoa:</label>
-              <input type="radio" name="tipo-pessoa" value="1"> Física
-              <input type="radio" name="tipo-pessoa" value="2"> Juridica
+              <input type="radio" name="tipo-pessoa" value="1" [routerLink]="['/cadastro-usuario']"> Física
+              <input type="radio" name="tipo-pessoa" value="2" checked> Juridica
             </form>
             <div class="input-group mb-1">
               <span class="input-group-addon"><i class="icon-user"></i></span>
-              <input type="text" class="form-control" placeholder="Nome">
+              <input type="text" class="form-control" placeholder="Razão Social">
             </div>
-
+            <div class="input-group mb-1">
+              <span class="input-group-addon"><i class="icon-user"></i></span>
+              <input type="text" class="form-control" placeholder="CNPJ">
+            </div>
             <div class="input-group mb-1">
               <span class="input-group-addon">@</span>
               <input type="text" class="form-control" placeholder="Email">

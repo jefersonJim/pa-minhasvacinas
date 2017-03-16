@@ -1,3 +1,4 @@
+import { CadastroVacinasComponent } from './cadastro-vacinas/cadastro-vacinas.component';
 import { CadastroPrincipalComponent } from './cadastro-principal/cadastro-principal.component';
 import { LoginComponent } from './login/login.component';
 import { NgModule } from '@angular/core';
@@ -10,6 +11,7 @@ export const routes: Routes = [
   { path: '', component: LoginComponent },
   { path: 'login', component: LoginComponent },
   { path: 'cadastro-principal', component: CadastroPrincipalComponent},
+  { path: 'cadastro-vacinas', component: CadastroVacinasComponent},
   {
     path: '',
     redirectTo: '',

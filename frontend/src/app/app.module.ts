@@ -22,6 +22,8 @@ import { CadastroVacinasComponent } from './cadastro-vacinas/cadastro-vacinas.co
 import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
 import { CadastroEmpresaComponent } from './cadastro-empresa/cadastro-empresa.component';
 import { CadastroColaboradorComponent } from './cadastro-colaborador/cadastro-colaborador.component';
+import { CadastroFilialComponent } from './cadastro-filial/cadastro-filial.component';
+import { CadastroPetComponent } from './cadastro-pet/cadastro-pet.component';
 
 @NgModule({
   imports: [
@@ -42,7 +44,9 @@ import { CadastroColaboradorComponent } from './cadastro-colaborador/cadastro-co
     CadastroVacinasComponent,
     CadastroUsuarioComponent,
     CadastroEmpresaComponent,
-    CadastroColaboradorComponent
+    CadastroColaboradorComponent,
+    CadastroFilialComponent,
+    CadastroPetComponent
   ],
   providers: [{
     provide: LocationStrategy,

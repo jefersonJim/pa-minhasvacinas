@@ -1,4 +1,4 @@
-Minhas Vacinas
+Minhas Vacinas (▀̿Ĺ̯▀̿ ̿)
 
 Instalar Ambiente FrontEnd
 
